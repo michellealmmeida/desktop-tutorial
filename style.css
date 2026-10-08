@@ -1,0 +1,255 @@
+body{
+    background-color:rgb(225, 205, 183);
+    margin: 0;
+padding: 0;
+}
+main{
+    background-color:rgb(231, 227, 222);
+    max-width: 1000px;
+    margin:auto;
+    border-radius: 30px;
+    line-height: 1.5em;
+   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+   padding: 30px;
+}
+header{
+    background-color: rgb(173, 219, 231);
+font-family: "Playwrite HR Lijeva", cursive;
+text-align: center;
+margin-bottom: 25px;
+}
+nav a{
+    color:rgb(59, 35, 26);
+    text-decoration: none;
+    padding:10px;
+}
+nav a:hover{
+    color:rgb(149, 128, 112);
+}
+.sobrenos{
+    height: 350px;
+    width: 330px;
+}
+.principal{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.saomiguel{
+    font-size:15px;
+    font-family: "Playwrite HR Lijeva", cursive;
+    text-align: center;
+}
+.saomiguel1{
+    font-size:30px;
+    padding:25px;
+}
+.unidades{
+    display:flex;
+    gap:25px;
+}
+h1{
+    font-family: "Playwrite HR Lijeva", cursive;
+    color:rgb(59, 35, 26);
+    padding:25px;
+}
+footer{
+    background-color: rgb(59, 35, 26);
+     font-family: "Playwrite HR Lijeva", cursive;
+     color:rgb(149, 128, 112);
+     text-align: center;
+     padding:10px;
+     margin-bottom: 5px;
+}
+img{
+    width: 200px;
+    height:200px;
+    padding: 15px;
+  border-radius: 25px;
+
+}
+.rodape{
+     font-family: "Playwrite HR Lijeva", cursive;
+     color:rgb(149, 128, 112);
+     text-align: center;
+}
+footer p{
+    text-align: center;
+    margin: 8px 0;
+}
+*{
+    margin:0px;
+    padding:0px;
+}
+footer img {
+    width: 25px;
+    height: 25px;
+}
+p{
+    margin:15px 0px;
+    text-align: justify;
+}
+.prinheader{
+    text-align: center;
+}
+.sobre{
+    display:flex;
+    align-items: center;
+    gap:15px;
+}
+.cantinho{
+    padding:10px;
+    padding-top: 21px;;
+    
+}
+.produtos{
+    display:flex;
+}
+.produto{
+    padding:25px;
+    border-radius: 15px;
+    text-align: center;
+    gap: 20px;
+    background-color:rgb(203, 191, 175);
+    font-family:"Playwrite HR Lijeva", cursive;
+    margin:15px;
+    width: 300px;
+    height:300px;
+
+}
+.produto img{
+    width: 180px;
+    height: 150px;
+}
+.produto button{
+     color:rgb(231, 227, 222);
+     background-color:  rgb(59, 35, 26);
+     border-radius: 30px;
+    padding:10px;
+    width: 150px;
+    border:none;
+}
+button{
+    color:rgb(231, 227, 222);
+     background-color:  rgb(59, 35, 26);
+     border-radius: 30px;
+    padding:10px;
+    width: 150px;
+    border:none;
+}
+button:hover{
+    background-color: rgb(149, 128, 112);
+}
+p{
+ font-family:"Playwrite HR Lijeva", cursive;
+
+}
+
+.informacoes{
+    display:flex;
+    gap:30px;
+    justify-content: space-around;
+}
+.atendimento{
+    font-size:20px;
+}
+.endereco, .funcionamento{
+    background-color: white;
+    padding:15px;
+    border-radius: 15px;
+    margin:25px;
+}
+.endereco > button{
+    text-align: center;
+    background-color:rgb(59, 35, 26);
+    color: white;
+ font-family:"Playwrite HR Lijeva", cursive;
+ border-radius: 15px;
+ height: 35px;
+display: block;
+margin:auto;
+
+}
+.funcionamento2{
+    font-size: 25px;
+}
+
+.unidade{
+    text-align: center;
+    font-size:23px;
+}
+.unidade2{
+    text-align: center;
+
+}
+nav a.ativo{
+     text-decoration: underline;
+    text-underline-offset: 6px;
+    text-decoration-thickness: 2px;
+    padding-bottom: 5px;
+    padding: 25px;
+}
+.produtospag02{
+  display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+.produtospag02 h1 {
+    flex-basis: 100%;
+}
+.h1pag02{
+    text-align: center;
+}
+h2{
+        font-family:"Playwrite HR Lijeva", cursive;
+            color:rgb(59, 35, 26);
+
+
+}
+.principalpag02{
+        font-family:"Playwrite HR Lijeva", cursive;
+font-size: 25px;
+text-align: center;
+    color:rgb(59, 35, 26);
+
+}
+.preco{
+    font-family: "playwrite HR Lijeva", cursive;
+}
+@media (max-width: 768px) {
+
+    header {
+        margin: 10px;
+    }
+
+    .sobre {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .produtos {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .produto {
+        width: 80%;
+        height: auto;
+    }
+
+    .informacoes {
+        flex-direction: column;
+        align-items: center;
+        gap: 0;
+    }
+    * {
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.produto {
+    width: 90%;
+}
+
+}
